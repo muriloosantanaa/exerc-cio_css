@@ -1,0 +1,839 @@
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.background {
+    background-image: url('https://static.videezy.com/system/resources/thumbnails/000/051/519/original/News-Corporation-On-A-Blue-Background-World-Map-01.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.section1-div {
+    width: 100%;
+    height: 100vh;
+}
+
+.menu-ul {
+    font-family: 'Noah Grotesque', sans-serif;
+    list-style-type: none;
+    margin-top: 6.5%;
+    font-size: 25px;
+}
+
+.menu-div {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(246, 53, 53);
+}
+
+.logo-img {
+    width: 5%;
+    height: 5%;
+}
+
+.esportes-a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.esportes-a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.esportes-a:not(:hover) {
+    transition: 0.5s;
+}
+
+.economia-a {
+    text-decoration: none;
+    color: white;
+}
+
+.economia-a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.economia-a:not(:hover) {
+    transition: 0.5s;
+}
+
+.tecnologia-a {
+    text-decoration: none;
+    color: white;
+}
+
+.tecnologia-a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.tecnologia-a:not(:hover) {
+    transition: 0.5s;
+}
+
+.entreterimento-a {
+    text-decoration: none;
+    color: white;
+}
+
+.entreterimento-a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.entreterimento-a:not(:hover) {
+    transition: 0.5s;
+}
+
+.esport-li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.economia-li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.tecnologia-li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.entreterimento-li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.texto-h1 {
+    color: red;
+    text-shadow: 0px 0px 4px red;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noah Grotesque', sans-serif;
+    font-size: 50px;
+}
+
+.texto-h2 {
+    color: red;
+    text-shadow: 0px 0px 4px red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noah Grotesque', sans-serif;
+    font-size: 50px;
+}
+
+.camada-cinza {
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 100px;
+}
+
+.background-sec1 {
+    background-color: rgb(7, 7, 7);
+    height: 100vh;
+    width: 100%;
+}
+
+.esportes-h2-title {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Noah Grotesque';
+    font-size: 80px;
+}
+
+.background-blue {
+    background-color: blue;
+    position: relative;
+    width: 80%;
+    height: 85vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+
+.messi-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+
+.messi-img {
+    height:400px;
+    width: 650px;
+}
+
+.messi-p {
+    width: 93%;
+}
+
+.american-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.american-img {
+    height:400px;
+    width: 650px;
+}
+
+.american-p {
+    width: 93%;
+}
+
+.basquete-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.basquete-img {
+    height:400px;
+    width: 650px;
+}
+
+.basquete-p {
+    width: 93%;
+}
+
+.background-sec1 {
+    display: flex;
+}
+
+.esportes-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: opacity(40%);
+}
+
+time, p, h3 {
+    color: aliceblue;
+    font-family: "Noah Grotesque";
+}
+
+.camada-cinza {
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 100px;
+}
+
+.background-sec2 {
+    background-color: rgb(7, 7, 7);
+    height: 100vh;
+    width: 100%;
+}
+
+.economia-h2-title {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Noah Grotesque';
+    font-size: 80px;
+}
+
+.esportes-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noah Grotesque', sans-serif;
+    font-size: 40px;
+}
+
+.background-blue {
+    background-color: blue;
+    position: relative;
+    width: 80%;
+    height: 85vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+
+.petro-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+
+.petro-img {
+    height:400px;
+    width: 650px;
+}
+
+.petro-p {
+    width: 93%;
+}
+
+.euro-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.euro-img {
+    height:400px;
+    width: 650px;
+}
+
+.euro-p {
+    width: 93%;
+}
+
+.dolar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.dolar-img {
+    height:400px;
+    width: 650px;
+}
+
+.dolar-p {
+    width: 93%;
+}
+
+.background-sec2 {
+    display: flex;
+}
+
+.economia-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: opacity(40%);
+}
+
+/* seção tecnologia */
+
+.camada-cinza {
+    background-color: rgba(0,0,0,1);
+    width: 100%;
+    height: 100px;
+}
+
+.background-sec3 {
+    background-color: rgb(7, 7, 7);
+    height: 100vh;
+    width: 100%;
+}
+
+.tecnologia-h2-title {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Noah Grotesque';
+    font-size: 80px;
+}
+
+.esportes-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noah Grotesque', sans-serif;
+    font-size: 40px;
+}
+
+.background-blue {
+    background-color: blue;
+    position: relative;
+    width: 80%;
+    height: 85vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+
+.nvidia-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+
+.nvidia-img {
+    height:400px;
+    width: 650px;
+}
+
+.nvidia-p {
+    width: 93%;
+}
+
+.neura-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.neura-img {
+    height:400px;
+    width: 650px;
+}
+
+.neura-p {
+    width: 93%;
+}
+
+.gpt-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.gpt-img {
+    height:400px;
+    width: 650px;
+}
+
+.gpt-p {
+    width: 93%;
+}
+
+.background-sec3 {
+    display: flex;
+}
+
+.tecnologia-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: opacity(20%);
+}
+
+/* seção entreterimento */
+
+.camada-cinza {
+    background-color: rgba(0,0,0,1);
+    width: 100%;
+    height: 100px;
+}
+
+.background-sec4 {
+    background-color: rgb(7, 7, 7);
+    height: 100vh;
+    width: 100%;
+}
+
+.entreterimento-h2-title {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Noah Grotesque';
+    font-size: 80px;
+}
+
+.esportes-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noah Grotesque', sans-serif;
+    font-size: 40px;
+}
+
+.background-blue {
+    background-color: blue;
+    position: relative;
+    width: 80%;
+    height: 85vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+
+.kungfu-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+
+.kungfu-img {
+    height:400px;
+    width: 650px;
+}
+
+.kungfu-p {
+    width: 93%;
+}
+
+.blaze-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.blaze-img {
+    height:400px;
+    width: 650px;
+}
+
+.blaze-p {
+    width: 93%;
+}
+
+.akira-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.akira-img {
+    height:400px;
+    width: 650px;
+}
+
+.akira-p {
+    width: 93%;
+}
+
+.background-sec4 {
+    display: flex;
+}
+
+.tecnologia-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: opacity(40%);
+}
+
+/* botões leia mais */
+
+.leia-messi {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-messi:hover {
+    padding: 2px;
+    box-shadow: 0px 0px 4px red;
+    transition: 0.5s;
+}
+
+.leia-messi:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-american {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-american:hover {
+    padding: 2px;
+    box-shadow: 0px 0px 4px red;
+    transition: 0.5s;
+}
+
+.leia-american:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-basquete {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-bsaquete:hover {
+    padding: 2px;
+    box-shadow: 0px 0px 4px red;
+    transition: 0.5s;
+}
+
+.leia-basquete:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-petro {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-petro:hover {
+    padding: 2px;
+    box-shadow: 0px 0px 4px red;
+    transition: 0.5s;
+}
+
+.leia-petro:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-euro {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-euro:hover {
+    padding: 2px;
+    box-shadow: 0px 0px 4px red;
+    transition: 0.5s;
+}
+
+.leia-euro:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-dolar {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-dolar:hover {
+    padding: 2px;
+    box-shadow: 0px 0px 4px red;
+    transition: 0.5s;
+}
+
+.leia-dolar:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-nvidia {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-nvidia:hover {
+    padding: 2px;
+    box-shadow: 0px 0px 4px red;
+    transition: 0.5s;
+}
+
+.leia-nvidia:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-neura {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-neura:hover {
+    padding: 2px;
+    box-shadow: 0px 0px 4px red;
+    transition: 0.5s;
+}
+
+.leia-neura:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-gpt {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-gpt:hover {
+    padding: 2px;
+    box-shadow: 0px 0px 4px red;
+    transition: 0.5s;
+}
+
+.leia-gpt:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-kungfu {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-kungfu:hover {
+    padding: 2px;
+    box-shadow: 0px 0px 4px red;
+    transition: 0.5s;
+}
+
+.leia-kungfu:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-blaze {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-blaze:hover {
+    padding: 2px;
+    box-shadow: 0px 0px 4px red;
+    transition: 0.5s;
+}
+
+.leia-blaze:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-akira {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-akira:hover {
+    padding: 2px;
+    box-shadow: 0px 0px 4px red;
+    transition: 0.5s;
+}
+
+.leia-akira:not(:hover) {
+    transition: 0.5s;
+}   
